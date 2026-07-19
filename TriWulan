@@ -1,0 +1,42 @@
+void main () {
+  // Digital biodata anggota klub
+  */ 
+  Ini adalah tugas pertama saya untuk membuat klub buku digital anggota klub.
+  Program ini dibuat untuk menyimpan dan menampilkan anggota klub.
+
+  // menyimpan nama anggota klub
+  String nama = "Tri Wulan Agustin";
+
+  // menyimpan umur anggota klub
+  int umur = 30;
+
+  // menyimpan tinggi anggota klub
+  double tinggiBadan = 1.65;
+
+  // menyimpan status aktif kenggotaan klub
+  bool statusAktif = true;
+
+  // menyimpan daftar buku favorit anggota klub
+  List<String> daftarBukuFavorit = ["Hujan", "Laskar Pelangi", "Bumi Manusia"];
+
+  // menyimpan informasi tambahan anggota klub seperti alamat, profesi
+  Map <String, dynamic> infoTambahan = {
+    "alamat": "Kp. Pisangan, Jakarta Timur",
+    "profesi": "App Developer";
+  };
+  
+}
+
+  /// fungsi untuk menampilkan biodata anggota klub
+  /// informasi biodata akan dicetak ke konsol
+  /// 
+  /// menerima parameter nama, umur, tinggi badan, status aktif, daftar buku favorit, dan info tambahan
+  
+  void tampilkanBiodata(String nama, int umur, double tinggiBadan, bool statusAktif, List<String> daftarBukuFavorit, Map<String, dynamic> infoTambahan){
+    print("Nama: $nama");
+    print("Umur: $umur tahun");
+    print("Tinggi Badan: $tinggiBadan meter");
+    print("Status Aktif: $statusAktif");
+    print("Daftar Buku Favorit: $daftarBukuFavorit");
+    print("Informasi Tambahan: $infoTambahan");
+  }
