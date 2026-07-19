@@ -3,6 +3,7 @@ void main () {
   */ 
   Ini adalah tugas pertama saya untuk membuat klub buku digital anggota klub.
   Program ini dibuat untuk menyimpan dan menampilkan anggota klub.
+  */
 
   // menyimpan nama anggota klub
   String nama = "Tri Wulan Agustin";
